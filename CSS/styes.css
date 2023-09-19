@@ -118,15 +118,25 @@ li {
 }
 
 .page2-and-page4-left {
-  background-color: cornflowerblue;
   width: 40%;
   min-height: 300px;
 }
 
 .page2-and-page4-right {
-  background-color: rgba(234, 176, 176, 0.895);
+  /* background-color: rgba(234, 176, 176, 0.895); */
   width: 25%;
   min-height: 300px;
+}
+
+.page2-img {
+  background-image: url(../img/item1.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page2-text {
+  padding: 5rem;
 }
 
 /* terza pagina */
