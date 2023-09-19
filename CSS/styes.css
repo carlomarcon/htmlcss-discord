@@ -4,21 +4,55 @@
   box-sizing: border-box;
 }
 
+/* comuni */
+h1 {
+  margin-bottom: 1rem;
+}
+img {
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+/* img 1 e 2 pag */
+
+.jumbo-img {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* pagina link */
+
+.logo-right a {
+  /* background-color: white; */
+  border-radius: 42%;
+  width: 5rem;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
 li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 4px;
+  margin-left: 2rem;
 }
 .container-links {
   display: flex;
-  background-color: rgb(117, 216, 236);
-  padding: 2rem 15rem;
+  /* background-color: rgb(117, 216, 236); */
+  padding: 2rem 10rem;
 }
 
 .link {
   width: 25%;
-  border: 2px solid;
-  background-color: rgb(179, 139, 30);
+  /* background-color: rgb(179, 139, 30); */
   min-height: 2rem;
   line-height: 2rem;
 }
@@ -35,7 +69,7 @@ li {
 /* PRIMA PAGINA  */
 
 .first-page {
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
   padding: 2rem;
   justify-content: center;
@@ -43,9 +77,35 @@ li {
 }
 
 .div-1page {
-  background-color: hotpink;
+  /* background-color: hotpink; */
   width: 50%;
   min-height: 300px;
+  text-align: center;
+  padding: 3rem;
+  color: white;
+}
+
+.buttonleft-1page {
+  border-radius: 42%;
+  width: 10rem;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  color: black;
+  vertical-align: middle;
+  padding: 0.5rem;
+}
+
+.buttonright-1page {
+  margin-left: 10px;
+  border-radius: 42%;
+  width: 14rem;
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  color: white;
+  vertical-align: middle;
+  padding: 0.5rem;
 }
 
 /* seconda pagina e quarta pagina  */
