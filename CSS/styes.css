@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 4px;
+}
+.container-links {
+  display: flex;
+  background-color: rgb(117, 216, 236);
+  padding: 2rem 15rem;
+}
+
+.link {
+  width: 25%;
+  border: 2px solid;
+  background-color: rgb(179, 139, 30);
+  min-height: 2rem;
+  line-height: 2rem;
+}
+
+.center {
+  width: 50%;
+  text-align: center;
+}
+
+.logo-right {
+  text-align: right;
+}
+
+/* PRIMA PAGINA  */
+
+.first-page {
+  background-color: blue;
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-1page {
+  background-color: hotpink;
+  width: 50%;
+  min-height: 300px;
+}
+
+/* seconda pagina e quarta pagina  */
+
+.second-and-fourth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.page2-and-page4-left {
+  background-color: cornflowerblue;
+  width: 40%;
+  min-height: 300px;
+}
+
+.page2-and-page4-right {
+  background-color: rgba(234, 176, 176, 0.895);
+  width: 25%;
+  min-height: 300px;
+}
+
+/* terza pagina */
+
+.third-page {
+  background-color: rgb(125, 124, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.page3-right {
+  background-color: cornflowerblue;
+  width: 40%;
+  min-height: 300px;
+}
+
+.page3-left {
+  background-color: rgba(234, 176, 176, 0.895);
+
+  width: 25%;
+  min-height: 300px;
+}
+
+/* quinta pagina */
+
+.fifth-page {
+  background-color: rgb(125, 124, 131);
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fifth {
+  background-color: green;
+  width: 70%;
+  min-height: 500px;
+}
+
+/* sesta pagina */
+.sixth-page {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(27, 31, 34);
+}
+
+.wrap {
+  background-color: aquamarine;
+  width: 60%;
+  min-height: 400px;
+  display: flex;
+  margin: 4rem 0;
+  background-color: rgb(43, 147, 152);
+}
+
+.greater-container {
+  flex-grow: 1;
+  background-color: rgb(188, 91, 91);
+}
+
+.mini-container {
+  width: calc(90% / 5);
+  border: 1px dotted;
+}
+
+/* barra di navigazione  */
+
+footer {
+  background-color: rgb(27, 31, 34);
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 0 0;
+}
+hr {
+  border: solid 2px white;
+}
+
+.Bar {
+  width: 60%;
+  min-height: 60px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-content: last baseline;
+  padding: 1rem 0;
+}
+
+.bottone,
+.logo {
+  padding: 2px;
+  text-align: center;
+  background-color: rgb(188, 91, 91);
+  border: 2px dashed black;
+  margin-top: 18px;
+}
