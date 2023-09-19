@@ -8,8 +8,6 @@
 h1 {
   margin-bottom: 1rem;
 }
-img {
-}
 
 a {
   text-decoration: none;
@@ -19,6 +17,11 @@ a {
 p {
   margin-bottom: 0.5rem;
 }
+
+.div2-3-4-text {
+  padding: 5rem;
+}
+
 /* img 1 e 2 pag */
 
 .jumbo-img {
@@ -139,6 +142,10 @@ li {
   padding: 5rem;
 }
 
+.page4-img {
+  background-image: url(../img/item3.svg);
+}
+
 /* terza pagina */
 
 .third-page {
@@ -150,16 +157,23 @@ li {
 }
 
 .page3-right {
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
   width: 40%;
   min-height: 300px;
 }
 
 .page3-left {
-  background-color: rgba(234, 176, 176, 0.895);
+  /* background-color: rgba(234, 176, 176, 0.895); */
 
   width: 25%;
   min-height: 300px;
+}
+
+.page3-img {
+  background-image: url(../img/item2.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* quinta pagina */
@@ -176,6 +190,8 @@ li {
   background-color: green;
   width: 70%;
   min-height: 500px;
+  text-align: center;
+  padding: 4rem;
 }
 
 /* sesta pagina */
@@ -202,6 +218,13 @@ li {
 .mini-container {
   width: calc(90% / 5);
   border: 1px dotted;
+}
+
+.img-and-button-pag5 {
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* barra di navigazione  */
