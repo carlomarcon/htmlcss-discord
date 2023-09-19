@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* comuni */
@@ -20,6 +21,12 @@ p {
 
 .div2-3-4-text {
   padding: 5rem;
+}
+
+span {
+  display: inline-block;
+  width: 17rem;
+  font-weight: bold;
 }
 
 /* img 1 e 2 pag */
@@ -149,7 +156,7 @@ li {
 /* terza pagina */
 
 .third-page {
-  background-color: rgb(125, 124, 131);
+  background-color: rgb(221, 221, 234);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,20 +185,47 @@ li {
 
 /* quinta pagina */
 
+.pg5-div {
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  max-height: 100px;
+  min-height: 150px;
+  width: 293px;
+  padding-top: 88px;
+  margin: auto;
+}
+
 .fifth-page {
-  background-color: rgb(125, 124, 131);
+  background-color: rgb(221, 221, 234);
   display: flex;
   padding: 2rem;
+  padding-bottom: 7rem;
   justify-content: center;
   align-items: center;
 }
 
 .container-fifth {
-  background-color: green;
+  /* background-color: green; */
   width: 70%;
   min-height: 500px;
   text-align: center;
-  padding: 4rem;
+  padding: 5rem;
+}
+
+.link5pag {
+  padding-top: 1rem;
+  min-height: 4rem;
+  margin-top: 2rem;
+}
+
+.link5pag a {
+  background-color: rgb(91, 91, 218);
+  display: inline-block;
+  padding: 7px;
+  width: 11rem;
+  border-radius: 12px;
 }
 
 /* sesta pagina */
