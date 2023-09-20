@@ -13,6 +13,7 @@ h1 {
 a {
   text-decoration: none;
   color: white;
+  display: inline-block;
 }
 
 p {
@@ -29,12 +30,19 @@ span {
   font-weight: bold;
 }
 
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
 /* img 1 e 2 pag */
 
 .jumbo-img {
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 /* pagina link */
@@ -42,14 +50,14 @@ span {
 .logo-right a {
   /* background-color: white; */
   border-radius: 42%;
-  width: 5rem;
+  width: 35%;
   display: inline-block;
   text-align: center;
   background-color: white;
   color: black;
 }
 
-li {
+.link li {
   list-style-type: none;
   display: inline-block;
   margin-left: 2rem;
@@ -97,7 +105,7 @@ li {
 
 .buttonleft-1page {
   border-radius: 42%;
-  width: 10rem;
+  width: 44%;
   display: inline-block;
   text-align: center;
   background-color: white;
@@ -109,7 +117,7 @@ li {
 .buttonright-1page {
   margin-left: 10px;
   border-radius: 42%;
-  width: 14rem;
+  width: 44%;
   display: inline-block;
   text-align: center;
   background-color: black;
@@ -228,6 +236,13 @@ li {
   border-radius: 12px;
 }
 
+.img-and-button-pag5 {
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* sesta pagina */
 .sixth-page {
   display: flex;
@@ -236,17 +251,21 @@ li {
 }
 
 .wrap {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   width: 60%;
   min-height: 400px;
   display: flex;
   margin: 4rem 0;
-  background-color: rgb(43, 147, 152);
+  /* background-color: rgb(43, 147, 152); */
 }
 
 .greater-container {
   flex-grow: 1;
-  background-color: rgb(188, 91, 91);
+  /* background-color: rgb(188, 91, 91); */
+}
+
+.greater-container a {
+  margin-right: 1rem;
 }
 
 .mini-container {
@@ -254,11 +273,19 @@ li {
   border: 1px dotted;
 }
 
-.img-and-button-pag5 {
-  background-image: url(../img/stars.svg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+.mini-container li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.leader,
+.leader-list {
+  color: rgb(18, 92, 157);
+}
+
+.lastLine {
+  border: 1px solid rgb(18, 92, 157);
 }
 
 /* barra di navigazione  */
@@ -276,18 +303,27 @@ hr {
 .Bar {
   width: 60%;
   min-height: 60px;
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: space-between;
   align-content: last baseline;
   padding: 1rem 0;
 }
 
-.bottone,
 .logo {
   padding: 2px;
   text-align: center;
-  background-color: rgb(188, 91, 91);
-  border: 2px dashed black;
+  /* background-color: rgb(188, 91, 91); */
+  /* border: 2px dashed black; */
   margin-top: 18px;
+  padding-top: 24px;
+}
+
+.lastButton a {
+  background-color: rgb(18, 92, 157);
+  display: inline-block;
+  padding: 24px;
+  width: 8rem;
+  border-radius: 33px;
+  text-align: center;
 }
